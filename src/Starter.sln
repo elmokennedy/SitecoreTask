@@ -30,7 +30,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter.Feature.Events", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter.Feature.Navigation", "Feature\Navigation\code\Starter.Feature.Navigation.csproj", "{7E0C28E5-8509-413C-A171-8FCBDA397301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter.Feature.Feedback", "Feature\Feedback\code\Starter.Feature.Feedback\Starter.Feature.Feedback.csproj", "{015A0D35-B00B-4406-BE00-9D73A11B7C36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter.Feature.Feedback", "Feature\Feedback\code\Starter.Feature.Feedback.csproj", "{015A0D35-B00B-4406-BE00-9D73A11B7C36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
