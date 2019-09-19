@@ -1,0 +1,22 @@
+﻿---
+ID: "7b220e41-46d8-4a08-8ef3-68b95a7e31d9"
+Parent: "df51f8a2-0138-4c8a-bf10-86c80a697483"
+Template: "de0cb769-d83b-4dc9-bd8c-ed60ba5fef42"
+Path: "/sitecore/content/Starter/Home/Event-List/*/Feedback Page"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Feedback Page
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190910T132430Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

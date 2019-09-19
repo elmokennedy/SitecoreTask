@@ -1,0 +1,22 @@
+﻿---
+ID: "a81a1ff9-3163-4377-ac89-d210acc6cd3a"
+Parent: "6d4ff66a-0f9b-4a48-b4b6-2d38b9e76323"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Starter/Feature/Navigation/navigation
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: navigation
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{0C0458FA-E110-4523-A4C8-6B2493D278CD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190916T090200Z

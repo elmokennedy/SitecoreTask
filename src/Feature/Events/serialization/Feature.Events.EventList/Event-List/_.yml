@@ -1,0 +1,28 @@
+﻿---
+ID: "df51f8a2-0138-4c8a-bf10-86c80a697483"
+Parent: "64b8237b-6f09-4c8d-b60e-18700c170479"
+Template: "daee1bdb-5a5a-4ec6-8483-a56739f46d30"
+Path: "/sitecore/content/Starter/Home/Event-List/*"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: * (Event Details name)
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0c2a0e0a-ae4b-469a-8284-ffa2139cc2d4"
+      Hint: Description
+      Value: *
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190910T131819Z
+    - ID: "3b119164-fdce-4704-8997-5bf37937f83b"
+      Hint: Name
+      Value: *
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,17 @@
+﻿---
+ID: "62f2e951-9af5-4947-bd6c-f066b97fac5c"
+Parent: "214f501f-9840-4a85-83ac-869104b75362"
+Template: "daee1bdb-5a5a-4ec6-8483-a56739f46d30"
+Path: "/sitecore/content/Starter/Shared Content/Events Repository/Swimming-Lake-Baikal"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190918T151336Z
+    - ID: "3b119164-fdce-4704-8997-5bf37937f83b"
+      Hint: Name
+      Value: "Swimming-Lake-Baikal"

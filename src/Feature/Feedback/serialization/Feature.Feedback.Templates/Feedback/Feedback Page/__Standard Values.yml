@@ -1,0 +1,41 @@
+﻿---
+ID: "4b726485-25d4-42ab-9885-47f48ddeb68e"
+Parent: "de0cb769-d83b-4dc9-bd8c-ed60ba5fef42"
+Template: "de0cb769-d83b-4dc9-bd8c-ed60ba5fef42"
+Path: /sitecore/templates/Starter/Feature/Feedback/Feedback Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{E0D8948C-F712-42C6-A4D1-2587265AC4A1}">
+        <r
+          id="{80988113-7EC2-4A4E-93D7-D739C4336F9C}"
+          ph="main"
+          uid="{1753778E-B313-4EBC-9FDB-77969F6183BC}" />
+        <r
+          id="{0C0458FA-E110-4523-A4C8-6B2493D278CD}"
+          ph="navigation"
+          uid="{69BAB9EF-67BA-44D2-81E4-5F3FFECF8C34}" />
+        <r
+          id="{C5F239ED-BCF3-4B12-B823-40CAE852385F}"
+          ph="content"
+          uid="{6C5EC6FE-C4FF-46E6-BCBD-14B195EC0EE4}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190916T140311Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

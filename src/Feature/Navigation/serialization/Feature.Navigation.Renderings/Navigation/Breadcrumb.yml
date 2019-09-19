@@ -1,0 +1,24 @@
+﻿---
+ID: "0c0458fa-e110-4523-a4c8-6b2493d278cd"
+Parent: "3ff2f1c5-86fa-4faa-afb6-01c324631369"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Starter/Feature/Navigation/Breadcrumb
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/tree.png
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Breadcrumb.cshtml
+- ID: "ddab263e-b42e-419a-aa6f-081b7393ca38"
+  Hint: Model
+  Value: /sitecore/layout/Models/Starter/Feature/Navigation/Breadcrumb
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190913T144403Z

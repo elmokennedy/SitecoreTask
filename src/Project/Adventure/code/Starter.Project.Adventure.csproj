@@ -88,7 +88,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Feature\Project.Adventure.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Shared\One-Column.cshtml" />
     <Content Include="Views\Shared\Two-Column.cshtml" />
