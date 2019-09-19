@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>TDSContentProjectGuidX</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SourceWebPhysicalPath>
+    </SourceWebPhysicalPath>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebVirtualPath>
+    </SourceWebVirtualPath>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>SolutionX.ModuleTypeX.ModuleNameX.TDS.Content</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>SolutionX.ModuleTypeX.ModuleNameX.TDS.Content</AssemblyName>
+    <Name>SolutionX.ModuleTypeX.ModuleNameX.TDS.Content</Name>
+    <RootNamespace>SolutionX.ModuleTypeX.ModuleNameX.TDS.Content</RootNamespace>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <EnableCodeGeneration>False</EnableCodeGeneration>
+    <!--Set paths saparated by pipe-->
+    <CodeGenerationLocations />
+    <!--Set DLL filter separated by pipe. e.g.: Epam.*.dll|ProjectX.*.dll-->
+    <CodeGenerationFilters />
+    <!--Set direct path to DLL separated by pipe-->
+    <CodeGenerationAssemblies />
+    <!--Set direct path to Glass.Mapper & Glass.Mapper.Sc DLL separated by pipe-->
+    <CodeGenerationDependencies>,D:\.projects\SolutionX\src\server\sandbox\Website\bin\Glass.Mapper.dll|D:\.projects\SolutionX\src\server\sandbox\Website\bin\Glass.Mapper.Sc.dll,d:\.projects\SolutionX\src\server\03.Project\ProjectX\SolutionX.Project.ProjectX.TDS.Content Project Folder: d:\.projects\SolutionX\src\server\03.Project\ProjectX D:\.projects\SolutionX\src\server\packages\Glass.Mapper.Sc.Core.4.2.1.188\lib\net45\Glass.Mapper.dll|D:\.projects\SolutionX\src\server\packages\Glass.Mapper.Sc.Core.4.2.1.188\lib\81\Glass.Mapper.Sc.dll</CodeGenerationDependencies>
+    <!--Set namespases that should be used by generated code-->
+    <CodeGenerationUsings />
+    <!--Tokens that shoudl be excluded from namespace during generation-->
+    <CodeGenerationExcludeNamespaces />
+    <FieldsForCodeGen>__Base template</FieldsForCodeGen>
+    <CodeGenTargetProject>SolutionX.ModuleTypeX.ModuleNameX</CodeGenTargetProject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <SitecoreWebUrl>http://SolutionX.local</SitecoreWebUrl>
+    <SitecoreDeployFolder>..\..\..\sandbox\Website\</SitecoreDeployFolder>
+    <SitecoreAccessGuid>789a8a98-cb4d-4be2-a3e1-1680f31447d6</SitecoreAccessGuid>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\SolutionX.ModuleTypeX.ModuleNameX.TDS.Content_Debug.xml</ValidationSettingsFilePath>
+    <PackageName>SolutionX.ModuleTypeX.ModuleNameX.Content</PackageName>
+    <PackageAuthor>EPAM Systems</PackageAuthor>
+    <PackagePublisher>EPAM Systems</PackagePublisher>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageReadme>SolutionX.ModuleTypeX.ModuleNameX.Content</PackageReadme>
+    <SitecoreAssemblyPath />
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>True</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <NuGetGenerateNuGetPackage>False</NuGetGenerateNuGetPackage>
+    <NuGetExePath>..\..\..\packages\NuGet.CommandLine.3.5.0\tools</NuGetExePath>
+    <NuGetSummary />
+    <NuGetDescription>SolutionX.ModuleTypeX.ModuleNameX.Content</NuGetDescription>
+    <NuGetTitle>SolutionX.ModuleTypeX.ModuleNameX.Content</NuGetTitle>
+    <NuGetVersion>1.0</NuGetVersion>
+    <NuGetPackageId>SolutionX.ModuleTypeX.ModuleNameX.Content</NuGetPackageId>
+    <NuGetAuthors>EPAM Systems</NuGetAuthors>
+    <NuGetOwners>EPAM Systems</NuGetOwners>
+    <NuGetCopyright>Copyright 2016 EPAM Systems. All Rights Reserved.</NuGetCopyright>
+    <NuGetLicenseUrl />
+    <NuGetIconUrl />
+    <NuGetProjectUrl />
+    <NuGetTags />
+    <NuGetReleaseNotes />
+    <NuGetLanguage />
+    <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
+    <NuGetDependencies />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <NuGetGenerateNuGetPackage>False</NuGetGenerateNuGetPackage>
+    <NuGetExePath>..\..\..\packages\NuGet.CommandLine.3.5.0\tools</NuGetExePath>
+    <NuGetSummary />
+    <NuGetDescription>SolutionX.ModuleTypeX.ModuleNameX.Content</NuGetDescription>
+    <NuGetTitle>SolutionX.ModuleTypeX.ModuleNameX.Content</NuGetTitle>
+    <NuGetVersion>1.0</NuGetVersion>
+    <NuGetPackageId>SolutionX.ModuleTypeX.ModuleNameX.Content</NuGetPackageId>
+    <NuGetAuthors>EPAM Systems</NuGetAuthors>
+    <NuGetOwners>EPAM Systems</NuGetOwners>
+    <NuGetCopyright>Copyright 2016 EPAM Systems. All Rights Reserved.</NuGetCopyright>
+    <NuGetLicenseUrl />
+    <NuGetIconUrl />
+    <NuGetProjectUrl />
+    <NuGetTags />
+    <NuGetReleaseNotes />
+    <NuGetLanguage />
+    <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
+    <NuGetDependencies />
+    <PackageName>SolutionX.ModuleTypeX.ModuleNameX.Content</PackageName>
+    <PackageAuthor>EPAM Systems</PackageAuthor>
+    <PackagePublisher>EPAM Systems</PackagePublisher>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageReadme>SolutionX.ModuleTypeX.ModuleNameX.Content</PackageReadme>
+    <SitecoreAssemblyPath />
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>True</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+  <Import Project="..\..\..\packages\Epam.Sc.EngX.NuGetGeneration.TDS.1.0.19\build\Epam.Sc.EngX.NuGetGeneration.TDS.targets" Condition="Exists('..\..\..\packages\Epam.Sc.EngX.NuGetGeneration.TDS.1.0.19\build\Epam.Sc.EngX.NuGetGeneration.TDS.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\packages\Epam.Sc.EngX.NuGetGeneration.TDS.1.0.19\build\Epam.Sc.EngX.NuGetGeneration.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\Epam.Sc.EngX.NuGetGeneration.TDS.1.0.19\build\Epam.Sc.EngX.NuGetGeneration.TDS.targets'))" />
+  </Target>
+</Project>

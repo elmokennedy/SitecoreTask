@@ -1,0 +1,17 @@
+{
+    "codeproject": "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}",
+	"TDSproject": "{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}",
+	
+	"codeprojectextension": ".csproj",
+	"TDSprojectextension": ".scproj",
+	
+	"codeprojectFolder": "code",
+	"testcodeprojectFolder": "tests",
+	
+	"codeprefixExtension" :"",
+	"testprefixExtension" :".Tests",
+	"TDSMasterprefixExtension" :".TDS.Master",
+	"TDSCoreprefixExtension" :".TDS.Core",
+	"TDSContentprefixExtension" :".TDS.Content"
+    
+}

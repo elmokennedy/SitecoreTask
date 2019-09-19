@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+    
+    Important: Before enabling this including file or changing any of the settings, read the Sitecore 6.3 Scaling Guide
+    (http://sdn.sitecore.net/Reference/Sitecore 6/Scaling Guide.aspx)
+    
+    -->
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:filter="http://www.epam.com/xmlconfig/">
+  <sitecore>
+    <settings>
+      <!--  INSTANCE NAME
+            Unique name for Sitecore instance.
+            Default value: (machine name and IIS site name)
+      -->
+      <setting name="InstanceName" filter:env="local">
+        <patch:attribute name="value"></patch:attribute>
+      </setting>
+      <!--  PUBLISHING INSTANCE
+            Assigns the instance name of dedicated Sitecore installation for publishing operations.
+            When empty, all publishing operations are performed on the local installation of Sitecore.
+            Default vaue: (empty)
+      -->
+      <setting name="Publishing.PublishingInstance" filter:host="XPUSCONW0168">
+        <patch:attribute name="value">XPUSCONW0168</patch:attribute>
+      </setting>
+      <!--  COUNTERS INSTANCE NAME
+            Instance name for performance counters.
+            Default value: (value of InstanceName setting)
+      -->
+      <setting name="Counters.InstanceName" filter:role="cm|cd">
+        <patch:attribute name="value"></patch:attribute>
+      </setting>
+    </settings>
+  </sitecore>
+</configuration>

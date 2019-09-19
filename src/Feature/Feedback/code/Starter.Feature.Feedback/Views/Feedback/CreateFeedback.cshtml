@@ -1,0 +1,24 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Sitecore.Mvc.Configuration
+@model Starter.Feature.Feedback.Models.FeedbackEntity
+
+@{
+    using (Html.BeginRouteForm(MvcSettings.SitecoreRouteName, FormMethod.Post))
+    {
+        <div>
+            <div>@Html.DisplayNameFor(m => Model.FullName)</div>
+            <div>@Html.TextBoxFor(m => m.FullName)</div>
+            <div>@Html.ValidationMessageFor(m => m.FullName)</div>
+        </div>
+        <div>
+            <div>@Html.DisplayNameFor(m => Model.Feedback)</div>
+            <div>@Html.TextBoxFor(m => m.Feedback)</div>
+            <div>@Html.ValidationMessageFor(m => m.Feedback)</div>
+        </div>
+
+        <div>
+            <input type="submit"/>
+        </div>
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "Replacement": {
+        "SolutionName": "CustomerX",
+        "DbPrefix": "CustomerX_",
+        "NumberOfProjects": "1",
+        "ProjectNames": [
+            "ProjectA",
+            "ProjectB",
+            "ProjectC",
+            "ProjectD",
+            "ProjectE"
+        ],
+        "Files": [
+            ".*\\.sln",
+            ".*\\.csproj",
+            ".*\\.scproj",
+            ".*\\.xproj",
+            ".*\\.pubxml",
+            "Global\\.asax",
+            ".*\\.cs",
+            "gulpfile\\.js",
+            ".*\\.config",
+            ".*\\.cshtml",
+            ".*\\.yaml",
+            ".*\\.json",
+            ".*\\.tt"
+        ],
+        "NuGet": [
+            ".*\\.config",
+            ".*\\..*proj",
+            ".*\\.json"
+        ],
+        "Environment": [
+            ".*\\.local.json"
+        ],
+        "CloudEnvironment": [
+            ".*\\.json"
+        ],
+        "Ci": [
+            "deploy.json"
+        ]
+    },
+    "Template": {
+        "Dir": "template",
+        "SolutionName": "NewProject",
+        "DbPrefix": "NewProject_",
+        "SolutionNameTemplate": "NewProject{0}",
+        "SiteNames": [
+            "NewSiteA",
+            "NewSiteB",
+            "NewSiteC",
+            "NewSiteD",
+            "NewSiteE"
+        ],
+        "DirectoryNames": [
+            "NewProject.{0}.Domain",
+            "NewProject.{0}.Sc",
+            "NewProject.{0}.TDS.Content",
+            "NewProject.{0}.TDS.Core",
+            "NewProject.{0}.TDS.Master",
+            "NewProject.{0}.Tests",
+            "NewProject.{0}.Web"
+        ],
+        "SrcPath": "D:\\.projects\\sitecore-engx-scaffolding\\template",
+
+        "WebProjectsMarker": "#{{WebProjectsOfEachSiteMarker}}",
+
+        "TdsProjectsMarker": "#{{TdsProjectsOfEachSiteMarker}}",
+
+        "TdsPackageOfEachSiteMarker": "#{{TdsPackageOfEachSiteMarker}}",
+
+        "TestsProjectsMarker": "#{{TestsProjectsOfEachSiteMarker}}",
+
+        "BindingsMarker": "#{{BindingsForEachSiteMarker}}",
+        "SiteBinding": [
+            "Protocol = \"http\"",
+            "IPAddress = \"127.0.0.1\"",
+            "Port = 80",
+            "HostName = \"{0}.{1}.local\""
+        ],
+        "TdsProjects": [
+            "{0}.{1}.TDS.Core",
+            "{0}.{1}.TDS.Master",
+            "{0}.{1}.TDS.Content"
+        ],
+        "TdsUpdates": [
+            "{0}.{1}.Core.update",
+            "{0}.{1}.Master.update",
+            "{0}.{1}.Content.update"
+        ],
+        "WebProject": [
+            "{0}.{1}.Web"
+        ],
+        "TestsProject": [
+            "{0}.{1}.Tests"
+        ],
+        "Exclude": [
+            "packages\\",
+            ".builds",
+            "bin",
+            "obj",
+            "node_modules",
+            "bower_components",
+            ".git$"
+        ]
+    },
+    "Sitecore": {
+        "Version": "8.1.0.151003",
+        "InstallSandbox": "Yes",
+        "EraseTargetFolder": "Yes",
+        "SandboxPath": ".\\sandbox"
+    }
+}

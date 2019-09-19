@@ -1,0 +1,10 @@
+{
+    "solutionName": "Epam",
+	"moduleName": "MyModule",
+	"serialisationProvider": "Unicorn",
+    "downloadsFolder": "../.downloads",
+    "sqlServerName": "localhost",
+    "sqlServerInstance": "MSSQLSERVER",
+    "sqlServiceAccount": "NT Service\\MSSQLSERVER",
+    "sqlAdminPassword": "Welcome1_666666"
+}

@@ -1,0 +1,159 @@
+<#@		template language="C#" debug="true" hostSpecific="true" 
+#><#@	output encoding="utf-8"
+#><#@	assembly name="System.Core.dll" 
+#><#@	assembly name="packages\Epam.Sc.EngX.CodeGeneration.1.1.12\tools\tds-dll\Epam.Sc.EngX.CodeGeneration.dll" 
+#><#@	import namespace="Epam.Sc.EngX.CodeGeneration"
+#><#@	import namespace="HedgehogDevelopment.SitecoreProject.VSIP.CodeGeneration.Models" 
+#><#@	import namespace="System" 
+#><#@	import namespace="System.Linq" 
+#><#@	import namespace="System.Text" 
+#><#@	import namespace="System.Collections.Generic" 
+#><#@	parameter name="Model" type="HedgehogDevelopment.SitecoreProject.VSIP.CodeGeneration.Models.SitecoreItem" 
+#><#@	parameter name="DefaultNamespace" type="System.String"
+#>
+
+<#
+	// System.Diagnostics.Debugger.Launch();
+	
+	Epam.Sc.EngX.CodeGeneration.Manager.Init(@"Feature\FeatureX\serialization\Core\SolutionX.Feature.FeatureX.TDS.Core.scproj");
+
+/*
+This TDS Code Generation template is used to generate objects that are compatible with the
+Glass Sitecore Mapper that is available @ http://www.glass.lu/
+
+There are a few things you can put in the 'Custom Data' property of a field in TDS. 
+To use multiple settings put them in as a querystring (key1=value&key2=value)
+
+ignore=true
+    Sets a field to be skipped over for code gen
+name=[name]
+    Forces the name of the generated property. 
+    If not specified, then the generated property is the name of the Sitecore field. 
+    If the field stores multiple values, the property name is pluralized.
+type=[type]
+    Sets the return type of the generated property
+generic=[type]
+    In the event the type (either specificed or auto mapped) is a generic it will use this generic type. i.e. List<generic>
+*/
+
+// we only act on Templates
+SitecoreTemplate template = Model as SitecoreTemplate;
+if (template == null)
+{
+    return "";
+}
+
+string Tool = "Epam.Sc.EngX.CodeGeneration - item.tt";
+string ToolVersion = "1.0";
+
+#>
+
+namespace <#= template.GetNamespace(DefaultNamespace)#>
+{
+		
+	/// <summary>
+	/// <#= template.Name.AsInterfaceName() #> Interface
+	/// <para><#= template.GetFieldValue("__Short description")#></para>
+	/// <para>Path: <#= template.Path #></para> 
+	/// <para>ID: <#= template.ID.ToString() #></para>  
+	/// </summary>
+	[SitecoreType(TemplateId="<#= template.ID.ToString() #>")] //, Cachable = true
+	public partial interface <#= template.Name.AsInterfaceName() #> : IGlassBase
+	{
+
+<#	foreach(var field in template.GetFieldsForTemplate(false)){#>
+		/// <summary>
+		/// The <#=field.Name#> field.
+<#		if(!string.IsNullOrEmpty(template.GetFieldValue("__Short description"))) { #>
+        /// <para><#= template.GetFieldValue("__Short description")#></para>
+<#		}#>
+        /// <para>Field Type: <#=field.Type#></para>    
+        /// <para>Field ID: <#=field.ID.ToString()#></para>
+<#		if(!string.IsNullOrEmpty(field.Data)) { #>
+        /// <para>Custom Data: <#=field.Data#></para>
+<#		}#>
+        /// </summary>
+        [SitecoreField("<#=field.Name#>")]
+        <#=field.GetGlassFieldType()#> <#= field.GetPropertyName() #>  {get; set;}
+      
+<#	}#>
+<#	foreach(var baseTemplate in template.BaseTemplates){#>
+		/// <summary>
+		/// The <#=baseTemplate.Name#> composition field.
+		/// </summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("<#=Tool#>", "<#=ToolVersion#>")]
+		[SitecoreSelf]
+        <#= baseTemplate.GetNamespace(DefaultNamespace)#>.<#= baseTemplate.Name.AsClassName()#> <#= baseTemplate.Name.AsClassName() #>Comp  {get; set;}
+
+<#	}#>
+<#	foreach(var baseTemplate in Model.BaseTemplates()) { #>
+		/// <summary>
+		/// The <#=baseTemplate.Name#> composition field.
+		/// <para>Generated from referenced assembly meta information.</para>
+		/// </summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("<#=Tool#>", "<#=ToolVersion#>")]
+		[SitecoreSelf]
+    <#=baseTemplate.FullName#> <#=baseTemplate.Name#>Comp  {get; set;}
+
+<#	}#>
+	}
+
+<#	// If the name of the template looks like an Interface, then don't generate a class definition #>
+<#	if (!template.Name.IsInterfaceWord()){ #>  
+	/// <summary>
+	/// <#= template.Name.AsClassName() #>
+	/// <para><#= template.GetFieldValue("__Short description")#></para>
+	/// <para>Path: <#= template.Path #></para> 
+	/// <para>ID: <#= template.ID.ToString() #></para>  
+	/// </summary>
+	[SitecoreType(TemplateId="<#= template.ID.ToString() #>")] //, Cachable = true
+	public partial class <#= template.Name.AsClassName() #>  : GlassBase, <#=template.Name.AsInterfaceName()#> 
+	{
+	
+		public const string TemplateIdString = "<#= template.ID.ToString() #>";
+		public static readonly ID TemplateId = new ID(TemplateIdString);
+		public const string TemplateName = "<#= template.Name #>";
+<#	foreach(SitecoreField field in template.GetFieldsForTemplate(false)){#>      
+		public static readonly ID <#= field.GetPropertyName() #>FieldId = new ID("<#=field.ID.ToString()#>");
+		public const string <#= field.GetPropertyName() #>FieldName = "<#=field.Name#>";
+      
+<#	}#>
+<#	foreach(SitecoreField field in template.GetFieldsForTemplate(false)){#>
+        /// <summary>
+		/// The <#=field.Name#> field.
+<#		if(!string.IsNullOrEmpty(template.GetFieldValue("__Short description"))) { #>
+        /// <para><#= template.GetFieldValue("__Short description")#></para>
+<#		}#>
+        /// <para>Field Type: <#=field.Type#></para>    
+        /// <para>Field ID: <#=field.ID.ToString()#></para>
+<#		if(!string.IsNullOrEmpty(field.Data)) { #>
+        /// <para>Custom Data: <#=field.Data#></para>
+<#		}#>
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("<#=Tool#>", "<#=ToolVersion#>")]
+        [SitecoreField("<#=field.Name#>")]
+        public virtual <#=field.GetGlassFieldType()#> <#= field.GetPropertyName() #>  {get; set;}
+
+<#	}#>
+<#	foreach(var baseTemplate in template.BaseTemplates) { #>
+		/// <summary>
+		/// The <#=baseTemplate.Name#> composition field.
+		/// </summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("<#=Tool#>", "<#=ToolVersion#>")]
+		[SitecoreSelf]
+        public virtual <#= baseTemplate.GetNamespace(DefaultNamespace)#>.<#=baseTemplate.Name.AsClassName()#> <#= baseTemplate.Name.AsClassName() #>Comp  {get; set;}
+
+<#	}#>
+<#	foreach(var baseTemplate in Model.BaseTemplates()) { #>
+		/// <summary>
+		/// The <#=baseTemplate.Name#> composition field.
+		/// <para>Generated from referenced assembly meta information.</para>
+		/// </summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("<#=Tool#>", "<#=ToolVersion#>")]
+		[SitecoreSelf]
+		public virtual <#=baseTemplate.FullName#> <#=baseTemplate.Name#>Comp  {get; set;}
+
+<#	}#>
+	}
+<#	}#>
+}

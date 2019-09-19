@@ -1,0 +1,30 @@
+﻿---
+ID: "db572d1c-416d-4d27-b56c-c682a8a62399"
+Parent: "7fdbc483-cbc7-41a0-9566-795ceffd9eb2"
+Template: "340a2d29-8e92-48da-a21e-e158442d69ae"
+Path: /sitecore/content/Starter/Feature
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/cube_green.png
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 0
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: 
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|Starter\Everyone|pe|!*|pd|!*|ar|Starter\ModuleViewer|pe|+item:read|pd|+item:read|ar|Starter\ModuleAuthor|pd|+item:rename|+item:delete|+item:write|+item:create|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170929T140413Z

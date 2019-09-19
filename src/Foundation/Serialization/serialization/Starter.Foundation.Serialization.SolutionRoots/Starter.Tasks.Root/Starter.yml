@@ -1,0 +1,14 @@
+﻿---
+ID: "9428e84a-23c0-489d-b24d-d9a42b5849eb"
+Parent: "ef58ca2c-3e59-44e0-82c1-97ff9b98535f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Tasks/Starter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170821T144853Z

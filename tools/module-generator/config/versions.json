@@ -1,0 +1,41 @@
+[{
+    "key": "a",
+    "name": "Sitecore Experience Platform 8.2",
+    "value": [{
+            "key": "a",
+            "name": "Update-3 rev. 170407",
+            "value": {
+                "name": "Sitecore Experience Platform 8.2 rev. 170407.zip (8.2 Update-3)",
+                "nugetVersion": "8.2.170407",
+                "installVersion": "8.2 rev. 170407"
+            }
+        },
+	    {
+            "key": "a",
+            "name": "Update-2 rev. 161221",
+            "value": {
+                "name": "Sitecore Experience Platform 8.2 rev. 161221.zip (8.2 Update-2)",
+                "nugetVersion": "8.2.161221",
+                "installVersion": "8.2 rev. 161221"
+            }
+        },
+        {
+            "key": "a",
+            "name": "Update-1 rev. 161115",
+            "value": {
+                "name": "Sitecore Experience Platform 8.2 rev. 161115.zip (8.2 Update-1)",
+                "nugetVersion": "8.2.161115",
+                "installVersion": "8.2 rev. 161115"
+            }
+        },
+        {
+            "key": "a",
+            "name": "Initial Release rev. 160729",
+            "value": {
+                "name": "Sitecore Experience Platform 8.2 rev. 160729.zip (8.2 Initial Release)",
+                "nugetVersion": "8.2.160729",
+                "installVersion": "8.2 rev. 160729"
+            }
+        } 
+    ]
+}]

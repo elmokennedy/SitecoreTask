@@ -1,0 +1,13 @@
+﻿@using Starter.Feature.Navigation.Models
+@model BreadcrumbItemList
+
+<ol class="breadcrumb">
+    @foreach (var item in Model.Breadcrumbs)
+    {
+        <li>
+            <a href="@item.Url">
+                @item.Title
+            </a>
+        </li>
+    }
+</ol>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>TDSCoreProjectGuidX</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SourceWebPhysicalPath>
+    </SourceWebPhysicalPath>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebVirtualPath>
+    </SourceWebVirtualPath>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>SolutionX.ModuleTypeX.ModuleNameX.Core</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>SolutionX.ModuleTypeX.ModuleNameX.Core</AssemblyName>
+    <Name>SolutionX.ModuleTypeX.ModuleNameX.Core</Name>
+    <RootNamespace>SolutionX.ModuleTypeX.ModuleNameX.Core</RootNamespace>
+    <EnableCodeGeneration>False</EnableCodeGeneration>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>core</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+    <FieldsForCodeGen>Title,Blob,ModuleNameX,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder,__Base template</FieldsForCodeGen>
+    <CodeGenTargetProject>SolutionX.ModuleTypeX.ModuleNameX</CodeGenTargetProject>
+    <CodeGenFile>Models.Generated.Core.cs</CodeGenFile>
+    <BaseNamespace>SolutionX.ModuleTypeX.ModuleNameX</BaseNamespace>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <!--Set paths saparated by pipe-->
+    <CodeGenerationLocations />
+    <!--Set DLL filter separated by pipe. e.g.: Epam.*.dll|Sample.*.dll-->
+    <CodeGenerationFilters />
+    <!--Set direct path to DLL separated by pipe-->
+    <CodeGenerationAssemblies />
+    <!--Set direct path to Glass.Mapper & Glass.Mapper.Sc DLL separated by pipe-->
+    <CodeGenerationDependencies>,D:\.projects\SolutionX\src\server\sandbox\Website\bin\Glass.Mapper.dll|D:\.projects\SolutionX\src\server\sandbox\Website\bin\Glass.Mapper.Sc.dll,D:\.projects\SolutionX\src\server\packages\Glass.Mapper.Sc.Core.4.2.1.188\lib\net45\Glass.Mapper.dll|D:\.projects\SolutionX\src\server\packages\Glass.Mapper.Sc.Core.4.2.1.188\lib\81\Glass.Mapper.Sc.dll,d:\.projects\SolutionX\src\server\02.Feature\FeatureX\SolutionX.Feature.FeatureX.TDS.Core Project Folder: d:\.projects\SolutionX\src\server\02.Feature\FeatureX D:\.projects\SolutionX\src\server\packages\Glass.Mapper.Sc.Core.4.2.1.188\lib\net45\Glass.Mapper.dll|D:\.projects\SolutionX\src\server\packages\Glass.Mapper.Sc.Core.4.2.1.188\lib\81\Glass.Mapper.Sc.dll</CodeGenerationDependencies>
+    <!--Set namespases that should be used by generated code-->
+    <CodeGenerationUsings />
+    <!--Tokens that shoudl be excluded from namespace during generation-->
+    <CodeGenerationExcludeNamespaces />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <SitecoreDeployFolder>..\..\..\sandbox\Website\</SitecoreDeployFolder>
+    <SitecoreWebUrl>http://SolutionX.local</SitecoreWebUrl>
+    <SitecoreAccessGuid>789a8a98-cb4d-4be2-a3e1-1680f31447d6</SitecoreAccessGuid>
+    <PackageName>SolutionX.ModuleTypeX.ModuleNameX.Core</PackageName>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>True</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <PackageAuthor>EPAM Systems</PackageAuthor>
+    <PackagePublisher>EPAM Systems</PackagePublisher>
+    <PackageReadme>SolutionX.ModuleTypeX.ModuleNameX.Core</PackageReadme>
+    <PackageVersion>1.0</PackageVersion>
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
+    <NuGetGenerateNuGetPackage>False</NuGetGenerateNuGetPackage>
+    <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
+    <NuGetSummary>
+    </NuGetSummary>
+    <NuGetExePath>..\..\..\packages\NuGet.CommandLine.3.5.0\tools</NuGetExePath>
+    <NuGetDescription>SolutionX.ModuleTypeX.ModuleNameX.Core</NuGetDescription>
+    <NuGetTitle>SolutionX.ModuleTypeX.ModuleNameX.Core</NuGetTitle>
+    <NuGetVersion>1.0</NuGetVersion>
+    <NuGetPackageId>SolutionX.ModuleTypeX.ModuleNameX.Core</NuGetPackageId>
+    <NuGetAuthors>EPAM Systems</NuGetAuthors>
+    <NuGetOwners>EPAM Systems</NuGetOwners>
+    <NuGetCopyright>Copyright 2016 EPAM Systems. All Rights Reserved.</NuGetCopyright>
+    <NuGetLicenseUrl>
+    </NuGetLicenseUrl>
+    <NuGetIconUrl>
+    </NuGetIconUrl>
+    <NuGetProjectUrl>
+    </NuGetProjectUrl>
+    <NuGetTags>
+    </NuGetTags>
+    <NuGetReleaseNotes>
+    </NuGetReleaseNotes>
+    <NuGetLanguage>
+    </NuGetLanguage>
+    <NuGetDependencies />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <SitecoreDeployFolder>..\..\..\sandbox\Website\</SitecoreDeployFolder>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\SolutionX.ModuleTypeX.ModuleNameX.Core_Release.xml</ValidationSettingsFilePath>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageName>SolutionX.ModuleTypeX.ModuleNameX.Core</PackageName>
+    <GeneratePackage>True</GeneratePackage>
+    <PackageExcludeCode>True</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <PackageAuthor>EPAM Systems</PackageAuthor>
+    <PackagePublisher>EPAM Systems</PackagePublisher>
+    <PackageReadme>SolutionX.ModuleTypeX.ModuleNameX.Core</PackageReadme>
+    <PackageVersion>1.0</PackageVersion>
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
+    <NuGetGenerateNuGetPackage>False</NuGetGenerateNuGetPackage>
+    <NuGetSummary>
+    </NuGetSummary>
+    <NuGetDescription>SolutionX.ModuleTypeX.ModuleNameX.Core</NuGetDescription>
+    <NuGetTitle>SolutionX.ModuleTypeX.ModuleNameX.Core</NuGetTitle>
+    <NuGetVersion>1.0</NuGetVersion>
+    <NuGetPackageId>SolutionX.ModuleTypeX.ModuleNameX.Core</NuGetPackageId>
+    <NuGetLicenseUrl>
+    </NuGetLicenseUrl>
+    <NuGetIconUrl>
+    </NuGetIconUrl>
+    <NuGetProjectUrl>
+    </NuGetProjectUrl>
+    <NuGetTags>
+    </NuGetTags>
+    <NuGetReleaseNotes>
+    </NuGetReleaseNotes>
+    <NuGetLanguage>
+    </NuGetLanguage>
+    <SitecoreAccessGuid>789a8a98-cb4d-4be2-a3e1-1680f31447d6</SitecoreAccessGuid>
+    <NuGetExePath>..\..\..\packages\NuGet.CommandLine.3.5.0\tools</NuGetExePath>
+    <NuGetAuthors>EPAM Systems</NuGetAuthors>
+    <NuGetOwners>EPAM Systems</NuGetOwners>
+    <NuGetCopyright>Copyright 2016 EPAM Systems. All Rights Reserved.</NuGetCopyright>
+    <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
+    <NuGetDependencies />
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+  <Import Project="..\..\..\packages\Epam.Sc.EngX.NuGetGeneration.TDS.1.0.19\build\Epam.Sc.EngX.NuGetGeneration.TDS.targets" Condition="Exists('..\..\..\packages\Epam.Sc.EngX.NuGetGeneration.TDS.1.0.19\build\Epam.Sc.EngX.NuGetGeneration.TDS.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\packages\Epam.Sc.EngX.NuGetGeneration.TDS.1.0.19\build\Epam.Sc.EngX.NuGetGeneration.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\Epam.Sc.EngX.NuGetGeneration.TDS.1.0.19\build\Epam.Sc.EngX.NuGetGeneration.TDS.targets'))" />
+  </Target>
+</Project>

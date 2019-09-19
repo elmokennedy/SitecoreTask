@@ -1,0 +1,39 @@
+{
+  "name": "generator-sitecore-starter-scaffold-helix",
+  "version": "1.0.0",
+  "description": "Sitecore Scaffold - Helix & Serialization",
+  "repository": "git@github.com:asmagin/sitecore-scaffold-helix.git",
+  "files": [
+    "generators"
+  ],
+  "main": "generators\\index.js",
+  "keywords": [
+    "sitecore",
+    "tds",
+    "unicorn",
+    "serialization",
+    "helix",
+    "yeoman-generator"
+  ],
+  "author": "EPAM",
+  "contributors": [
+    "Chris Gentile <Chris_Gentile@epam.com>",
+	"Purnima Mandava <Purnima_Mandava@epam.com>",
+	"Naveed Ahmad <Naveed_Ahmad@epam.com>",
+	"Aliaksandr Smahin <Aliaksandr_Smahin@epam.com>",
+	"Raghu Kadali <Raghu_Kadali@epam.com>"	
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "mkdirp": "^0.5.1",
+    "node-powershell": "^3.0.1",
+    "node-uuid": "^1.4.7",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.0",
+	"system-sleep": "^1.3.0"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "devDependencies": {
+    "gulp-rename": "^1.2.2"
+  }
+}
