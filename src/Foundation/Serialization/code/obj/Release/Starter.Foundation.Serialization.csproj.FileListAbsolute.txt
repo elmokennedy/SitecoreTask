@@ -1,0 +1,17 @@
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Starter.Foundation.Serialization.dll.config
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Starter.Foundation.Serialization.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Starter.Foundation.Serialization.pdb
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Configy.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Kamsar.WebConsole.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\MicroCHAP.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Rainbow.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Rainbow.Storage.Sc.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Rainbow.Storage.Yaml.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Unicorn.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Unicorn.Roles.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\bin\Release\Unicorn.Users.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\obj\Release\Starter.Foundation.Serialization.csprojAssemblyReference.cache
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\obj\Release\Starter.Foundation.Serialization.csproj.CoreCompileInputs.cache
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\obj\Release\Starter.Foundation.Serialization.csproj.CopyComplete
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\obj\Release\Starter.Foundation.Serialization.dll
+C:\SitecoreTask\sc-starter\src\Foundation\Serialization\code\obj\Release\Starter.Foundation.Serialization.pdb

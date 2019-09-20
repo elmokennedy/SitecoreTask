@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\ac.com\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/Feature/Project.Adventure.Serialization.config">
+      <publishTime>09/19/2019 12:38:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>09/02/2016 12:44:38</publishTime>
+    </File>
+    <File Include="bin/Starter.Project.Adventure.dll">
+      <publishTime>09/19/2019 15:29:01</publishTime>
+    </File>
+    <File Include="bin/Starter.Project.Adventure.pdb">
+      <publishTime>09/19/2019 15:29:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 11:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 11:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/16/2019 13:45:16</publishTime>
+    </File>
+    <File Include="Views/Shared/Default.cshtml">
+      <publishTime>09/19/2019 15:49:12</publishTime>
+    </File>
+    <File Include="Views/Shared/One-Column.cshtml">
+      <publishTime>09/13/2019 17:48:12</publishTime>
+    </File>
+    <File Include="Views/Shared/Two-Column.cshtml">
+      <publishTime>09/13/2019 15:28:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
