@@ -21,6 +21,14 @@ SharedFields:
           id="{80988113-7EC2-4A4E-93D7-D739C4336F9C}"
           ph="main"
           uid="{E08BFFDB-4AEF-4414-A244-E8959D4FF9F7}" />
+        <r
+          id="{0C0458FA-E110-4523-A4C8-6B2493D278CD}"
+          ph="navigation"
+          uid="{E5D3345F-5E7A-40BE-9A78-69C14151AA47}" />
+        <r
+          id="{D3A8F7E8-1D6C-4052-9F90-D62587FEB165}"
+          ph="content"
+          uid="{E5CEE3DD-BEA8-41D3-8A9A-E71EAA850D94}" />
       </d>
     </r>
 Languages:

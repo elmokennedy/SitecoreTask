@@ -22,9 +22,17 @@ SharedFields:
           ph="navigation"
           uid="{69BAB9EF-67BA-44D2-81E4-5F3FFECF8C34}" />
         <r
+          ds=""
           id="{C5F239ED-BCF3-4B12-B823-40CAE852385F}"
+          par=""
           ph="content"
           uid="{6C5EC6FE-C4FF-46E6-BCBD-14B195EC0EE4}" />
+        <r
+          ds=""
+          id="{CC3EEB74-8083-49B3-B9C8-A908C0D819D0}"
+          par=""
+          ph="feedbackList"
+          uid="{D0A3DFA2-AEAD-4B57-AA1E-675DDCA2F83B}" />
       </d>
     </r>
 Languages:

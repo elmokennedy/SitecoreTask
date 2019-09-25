@@ -1,3 +1,5 @@
-﻿@model Starter.Feature.Feedback.Models.FeedbackEntity
+﻿@model Starter.Feature.Feedback.Models.FeedbackViewModel
 
-@Model.FullName, thank you  for your feedback:@Model.Feedback, about <a href="@Model.ParentUrl">@Model.ParentName</a> 
+<div style="margin-left: 40px;">
+    <span style="font-weight: bold;">@Model.FullName</span>, thank you  for your feedback: "@Model.Feedback", about <a style="font-weight: bold;" href="@Model.ParentUrl">@Model.ParentName</a>
+</div>

@@ -1,0 +1,20 @@
+﻿@using Sitecore.Mvc
+@using Starter.Feature.Feedback.Models
+@model List<FeedbackViewModel>
+
+<div style="margin-left: 40px;">
+   @if (Model.Count == 0)
+   {
+       <span>There is no comments under this event</span>
+   }
+   else
+   {
+       foreach (var f in Model)
+       {
+           <div>
+               <span style="font-weight: bold;">@f.FullName</span> says: @f.Feedback
+           </div>
+       }
+   }
+</div>
+

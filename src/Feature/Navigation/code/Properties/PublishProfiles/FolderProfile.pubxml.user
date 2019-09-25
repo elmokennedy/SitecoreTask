@@ -196,10 +196,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/02/2016 12:44:38</publishTime>
     </File>
     <File Include="bin/Starter.Feature.Navigation.dll">
-      <publishTime>09/19/2019 15:27:59</publishTime>
+      <publishTime>09/25/2019 17:34:51</publishTime>
     </File>
     <File Include="bin/Starter.Feature.Navigation.pdb">
-      <publishTime>09/19/2019 15:27:59</publishTime>
+      <publishTime>09/25/2019 17:34:51</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
       <publishTime>07/19/2017 10:01:30</publishTime>
@@ -233,6 +233,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Breadcrumb.cshtml">
       <publishTime>09/16/2019 16:10:37</publishTime>
+    </File>
+    <File Include="Views/Navigation/Breadcrumb.cshtml">
+      <publishTime>09/25/2019 15:02:47</publishTime>
     </File>
     <File Include="Web.Debug.config">
       <publishTime>09/13/2019 17:13:32</publishTime>

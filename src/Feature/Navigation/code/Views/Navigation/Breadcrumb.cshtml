@@ -3,11 +3,11 @@
 
 <ol class="breadcrumb">
     @foreach (var item in Model.Breadcrumbs)
-    {
-        <li>
-            <a href="@item.Url">
+    { 
+        <li style="display: inline;">
+            <a href="@item.ItemUrl">
                 @item.Title
-            </a>
-        </li>
+            </a> /
+        </li> 
     }
 </ol>

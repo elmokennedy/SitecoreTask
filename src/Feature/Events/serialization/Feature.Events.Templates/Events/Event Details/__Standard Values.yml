@@ -25,6 +25,10 @@ SharedFields:
           id="{0C0458FA-E110-4523-A4C8-6B2493D278CD}"
           ph="navigation"
           uid="{26266B36-9757-475B-950C-27DDBEA7B2C0}" />
+        <r
+          id="{29FC1267-2619-4092-9E0F-01314DAE4700}"
+          ph="content"
+          uid="{DE0B6EF9-8833-42FC-9DF4-3472C7B168DC}" />
       </d>
     </r>
 Languages:
@@ -32,6 +36,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0c2a0e0a-ae4b-469a-8284-ffa2139cc2d4"
+      Hint: Description
+      Value: This is event details description
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20190910T132407Z

@@ -1,0 +1,21 @@
+﻿---
+ID: "9098f8fb-ac47-4791-bb51-c5d131a501e7"
+Parent: "e42acb3f-32cc-4019-a580-85320850986b"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Starter/Project/HomePageWelcome
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/Start.png
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Shared/HomePageWelcome.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190924T163124Z

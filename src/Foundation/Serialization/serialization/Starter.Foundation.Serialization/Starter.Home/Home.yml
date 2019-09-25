@@ -69,6 +69,44 @@ SharedFields:
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{E0D8948C-F712-42C6-A4D1-2587265AC4A1}">
+        <r
+          uid="{43222D12-08C9-453B-AE96-D406EBB95126}">
+          <p:d />
+        </r>
+        <r
+          uid="{CF044AD9-0332-407A-ABDE-587214A2C808}">
+          <p:d />
+        </r>
+        <r
+          uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}">
+          <p:d />
+        </r>
+        <r
+          uid="{C32F2819-A88B-4D3B-819D-7F9303E5E8E7}"
+          p:before="*"
+          s:id="{12D01ECA-2557-4ADD-9760-7598F0C11D54}"
+          s:ph="main" />
+        <r
+          uid="{F51C229D-9A60-4330-8570-1D7132158EB1}"
+          p:after="r[@uid='{C32F2819-A88B-4D3B-819D-7F9303E5E8E7}']"
+          s:id="{9098F8FB-AC47-4791-BB51-C5D131A501E7}"
+          s:ph="left-column" />
+        <r
+          uid="{D1B8645A-24B6-4261-A8C4-E2010A76696C}"
+          p:after="*[1=2]"
+          s:id="{D4C74446-D659-4849-97BC-E64E50149005}"
+          s:ph="right-column" />
+      </d>
+    </r>
 Languages:
 - Language: da
   Fields:

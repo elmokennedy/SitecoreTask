@@ -91,6 +91,8 @@
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Shared\One-Column.cshtml" />
     <Content Include="Views\Shared\Two-Column.cshtml" />
+    <Content Include="Views\Shared\HomePageWelcome.cshtml" />
+    <Content Include="Views\Shared\HomePageLinks.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

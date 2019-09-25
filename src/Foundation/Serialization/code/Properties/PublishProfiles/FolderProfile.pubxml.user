@@ -94,10 +94,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/22/2017 12:55:30</publishTime>
     </File>
     <File Include="bin/Starter.Foundation.Serialization.dll">
-      <publishTime>09/19/2019 15:27:58</publishTime>
+      <publishTime>09/22/2019 15:22:25</publishTime>
     </File>
     <File Include="bin/Starter.Foundation.Serialization.pdb">
-      <publishTime>09/19/2019 15:27:58</publishTime>
+      <publishTime>09/22/2019 15:22:25</publishTime>
     </File>
     <File Include="bin/Unicorn.dll">
       <publishTime>09/18/2017 06:41:40</publishTime>

@@ -1,0 +1,22 @@
+﻿---
+ID: "34828a62-b24c-4823-b05b-7f08f3583c71"
+Parent: "40056ec0-98a2-4596-929c-15e06e03faff"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Starter/Feature/Feedback/feedbackForm
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: feedbackForm
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{C5F239ED-BCF3-4B12-B823-40CAE852385F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190923T143604Z

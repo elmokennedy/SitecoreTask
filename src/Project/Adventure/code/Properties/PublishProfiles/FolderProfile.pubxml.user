@@ -22,10 +22,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/02/2016 12:44:38</publishTime>
     </File>
     <File Include="bin/Starter.Project.Adventure.dll">
-      <publishTime>09/19/2019 15:29:01</publishTime>
+      <publishTime>09/25/2019 15:28:06</publishTime>
     </File>
     <File Include="bin/Starter.Project.Adventure.pdb">
-      <publishTime>09/19/2019 15:29:01</publishTime>
+      <publishTime>09/25/2019 15:28:06</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>02/01/2018 11:20:56</publishTime>
@@ -49,13 +49,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/16/2019 13:45:16</publishTime>
     </File>
     <File Include="Views/Shared/Default.cshtml">
-      <publishTime>09/19/2019 15:49:12</publishTime>
+      <publishTime>09/24/2019 16:12:25</publishTime>
+    </File>
+    <File Include="Views/Shared/HomePage.cshtml">
+      <publishTime>09/24/2019 19:19:17</publishTime>
+    </File>
+    <File Include="Views/Shared/HomePageLinks.cshtml">
+      <publishTime>09/25/2019 15:42:15</publishTime>
+    </File>
+    <File Include="Views/Shared/HomePageWelcome.cshtml">
+      <publishTime>09/25/2019 15:27:54</publishTime>
     </File>
     <File Include="Views/Shared/One-Column.cshtml">
       <publishTime>09/13/2019 17:48:12</publishTime>
     </File>
     <File Include="Views/Shared/Two-Column.cshtml">
-      <publishTime>09/13/2019 15:28:32</publishTime>
+      <publishTime>09/25/2019 15:49:46</publishTime>
     </File>
   </ItemGroup>
 </Project>

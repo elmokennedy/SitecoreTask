@@ -1,24 +1,33 @@
 ﻿@using System.Web.Mvc
 @using System.Web.Mvc.Html
+@using Sitecore.Mvc
 @using Sitecore.Mvc.Configuration
-@model Starter.Feature.Feedback.Models.FeedbackEntity
+@model Starter.Feature.Feedback.Models.FeedbackViewModel
 
 @{
     using (Html.BeginRouteForm(MvcSettings.SitecoreRouteName, FormMethod.Post))
     {
-        <div>
-            <div>@Html.DisplayNameFor(m => Model.FullName)</div>
-            <div>@Html.TextBoxFor(m => m.FullName)</div>
-            <div>@Html.ValidationMessageFor(m => m.FullName)</div>
-        </div>
-        <div>
-            <div>@Html.DisplayNameFor(m => Model.Feedback)</div>
-            <div>@Html.TextBoxFor(m => m.Feedback)</div>
-            <div>@Html.ValidationMessageFor(m => m.Feedback)</div>
-        </div>
+        <div style="margin-left: 40px;">
+            <div>
+                <div style="font-weight: bold;">@Html.DisplayNameFor(m => Model.FullName)</div>
+                <div style="margin-top: 10px;">@Html.TextBoxFor(m => m.FullName)
+                    <span style="font-weight: bold; color: red;">@Html.ValidationMessageFor(m => m.FullName)</span>
+                </div>
+            </div>
+            <div>
+                <div style="font-weight: bold;">@Html.DisplayNameFor(m => Model.Feedback)</div>
+                <div style="margin-top: 10px;">@Html.TextBoxFor(m => m.Feedback)
+                    <span style="font-weight: bold; color: red;">@Html.ValidationMessageFor(m => m.Feedback)</span>
+                </div>
+            </div>
 
-        <div>
-            <input type="submit"/>
+            <div style="margin-top: 10px;">
+                <input type="submit" />
+            </div>
         </div>
     }
 }
+
+<div style="margin-top: 40px;">
+    @Html.Sitecore().Placeholder("feedbackList")
+</div>

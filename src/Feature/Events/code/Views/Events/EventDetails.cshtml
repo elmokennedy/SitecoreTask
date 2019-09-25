@@ -1,0 +1,16 @@
+﻿@using Sitecore.Links
+@using Sitecore.Mvc
+
+<div style="margin-left: 40px;">
+    <div>
+        <span style="font-weight: bold;">@Html.Sitecore().Field("Name")</span>
+    </div>
+    <div style="margin-top: 10px;">
+        @Html.Sitecore().Field("Description")
+    </div>
+    <div style="margin-top: 10px;">
+        <a href="@LinkManager.GetItemUrl(Sitecore.Context.Item)/Feedback-Page">Go to Feedback page</a>
+    </div>
+</div>
+
+

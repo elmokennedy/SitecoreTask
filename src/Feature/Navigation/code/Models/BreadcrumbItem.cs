@@ -1,5 +1,4 @@
 ﻿using Sitecore.Data.Items;
-using Sitecore.Links;
 
 namespace Starter.Feature.Navigation.Models
 {
@@ -8,10 +7,8 @@ namespace Starter.Feature.Navigation.Models
         public BreadcrumbItem(Item item) 
             : base(item) { }
 
-        public string Title => InnerItem["Name"];
+        public string Title { get; set; }
 
-        //public bool IsActive => Sitecore.Context.Item.ID == InnerItem.ID;
-
-        public string Url => LinkManager.GetItemUrl(InnerItem);
+        public string ItemUrl { get; set; }
     }
 }

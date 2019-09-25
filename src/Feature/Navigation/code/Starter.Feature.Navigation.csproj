@@ -153,9 +153,10 @@
     <Compile Include="Models\BreadcrumbItem.cs" />
     <Compile Include="Models\BreadcrumbItemList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SitecoreData\StaticData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Breadcrumb.cshtml" />
+    <Content Include="Views\Navigation\Breadcrumb.cshtml" />
     <Content Include="App_Config\Include\Feature\Feature.Navigation.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.config" />

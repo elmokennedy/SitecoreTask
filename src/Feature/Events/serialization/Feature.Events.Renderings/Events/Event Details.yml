@@ -1,0 +1,21 @@
+﻿---
+ID: "29fc1267-2619-4092-9e0f-01314dae4700"
+Parent: "53d046d0-8839-48e7-af4e-c74ee330fc76"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Starter/Feature/Events/Event Details
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/photo_scenery.png
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Events/EventDetails.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190924T130215Z

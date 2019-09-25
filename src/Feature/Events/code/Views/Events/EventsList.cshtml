@@ -1,0 +1,9 @@
+﻿@using Starter.Feature.Events.Models
+@model List<EventViewModel>
+
+<ol>
+    @foreach (var ev in Model)
+    {
+        <li> <a href="@ev.EventUrl"> @ev.EventName </a></li>
+    }
+</ol>
